@@ -17,7 +17,9 @@ public class OpenApiConfig {
                         .version("1.0.0")
                         .description("API REST para gerenciamento de contas bancárias")
                         .contact(new Contact()
-                                .name("Kelvin Schmitt")));
+                                .name("Kelvin Schmitt")
+                                .email("kelvin.fast@gmail.com")
+                        ));
     }
 }
 
