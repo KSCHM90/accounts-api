@@ -9,11 +9,6 @@ API REST simples para criação e listagem de contas bancárias do CoraBank.
 - **Banco de Dados**: H2 (em memória)
 - **Build**: Maven
 
-## Requisitos
-
-- Java 17 ou superior
-- Maven 3.6+
-
 ## Como rodar
 
 1. **Clone o repositório**:
@@ -40,7 +35,7 @@ API REST simples para criação e listagem de contas bancárias do CoraBank.
    - Credenciais H2:
      - **JDBC URL**: `jdbc:h2:mem:testdb`
      - **User**: `sa`
-     - **Password**: (deixe em branco)
+     - **Password**:
 
 ## Endpoints
 
