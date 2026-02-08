@@ -1,4 +1,4 @@
-package com.CoraBank.accounts_api.DTO;
+package com.corabank.accounts_api.model.dto;
 
 import lombok.Builder;
 

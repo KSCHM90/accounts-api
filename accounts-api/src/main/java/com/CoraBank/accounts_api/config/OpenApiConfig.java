@@ -1,4 +1,4 @@
-package com.CoraBank.accounts_api.Config;
+package com.corabank.accounts_api.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -17,8 +17,7 @@ public class OpenApiConfig {
                         .version("1.0.0")
                         .description("API REST para gerenciamento de contas bancárias")
                         .contact(new Contact()
-                                .name("CoraBank")
-                                .url("https://cora.com.br")));
+                                .name("Kelvin Schmitt")));
     }
 }
 

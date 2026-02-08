@@ -1,4 +1,4 @@
-package com.CoraBank.accounts_api;
+package com.corabank.accounts_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

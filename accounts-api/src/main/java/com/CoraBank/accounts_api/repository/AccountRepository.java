@@ -1,6 +1,6 @@
-package com.CoraBank.accounts_api.Repository;
+package com.corabank.accounts_api.repository;
 
-import com.CoraBank.accounts_api.Model.Account;
+import com.corabank.accounts_api.model.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

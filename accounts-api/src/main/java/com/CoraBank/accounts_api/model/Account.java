@@ -1,4 +1,4 @@
-package com.CoraBank.accounts_api.Model;
+package com.corabank.accounts_api.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
