@@ -3,7 +3,6 @@ package com.corabank.accounts_api.controller;
 import com.corabank.accounts_api.controller.api.AccountApi;
 import com.corabank.accounts_api.model.dto.AccountResponse;
 import com.corabank.accounts_api.model.dto.CreateAccountRequest;
-import com.corabank.accounts_api.model.Account;
 import com.corabank.accounts_api.service.AccountService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
