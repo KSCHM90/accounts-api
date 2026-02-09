@@ -40,11 +40,11 @@ class AccountControllerTest {
 
         Mockito.doReturn(account)
                 .when(accountService)
-                .create("João", "12345678901");
+                .create("João", "12345678901", null);
 
 
         CreateAccountRequest request =
-                new CreateAccountRequest("João", "12345678901");
+                new CreateAccountRequest("João", "12345678901", null);
 
         mockMvc.perform(post("/accounts")
                         .contentType(MediaType.APPLICATION_JSON)

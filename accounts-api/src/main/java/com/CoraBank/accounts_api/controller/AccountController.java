@@ -25,7 +25,7 @@ public class AccountController implements AccountApi {
     @Override
     @PostMapping
     public ResponseEntity<AccountResponse> createAccount(@Valid @RequestBody CreateAccountRequest request) {
-        AccountResponse response = service.create(request.name(), request.cpf());
+        AccountResponse response = service.create(request.name(), request.cpf(), request.referralCode());
 
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }

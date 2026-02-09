@@ -16,11 +16,14 @@ public class AccountService {
         this.repository = repository;
     }
 
-    public AccountResponse create(String name, String cpf) {
+    public AccountResponse create(String name, String cpf, String referralCode) {
         Account account = Account.builder()
                 .name(name)
                 .cpf(cpf)
                 .build();
+        if(!referralCode.isEmpty()){
+            account.setBalance(10.0);
+        }
         repository.save(account);
         return toResponse(account);
 
@@ -38,6 +41,8 @@ public class AccountService {
                 .id(account.getId())
                 .name(account.getName())
                 .cpf(account.getCpf())
+                .balance(account.getBalance())
+                .active(account.getActive())
                 .build();
     }
 }

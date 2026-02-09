@@ -24,10 +24,16 @@ public class Account {
 
     private String cpf;
 
+    private Double balance;
+
+    private Boolean active;
+
     @Builder
     public Account(String name, String cpf) {
         this.name = name;
         this.cpf = cpf;
+        this.active = true;
+        this.balance = 0.0;
     }
 }
 

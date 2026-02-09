@@ -6,5 +6,7 @@ import lombok.Builder;
 public record AccountResponse(
     Long id,
     String name,
-    String cpf
+    String cpf,
+    Double balance,
+    Boolean active
 ) {}
